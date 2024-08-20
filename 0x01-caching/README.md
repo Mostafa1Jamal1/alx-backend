@@ -8,3 +8,5 @@
 `*2-lifo_cache.py*` -> a class LIFOCache that inherits from BaseCaching and is a caching system
 
 `*3-lru_cache.py*` -> a class LRUCache that inherits from BaseCaching and is a caching system
+
+`*4-mru_cache.py*` -> a class MRUCache that inherits from BaseCaching and is a caching system
