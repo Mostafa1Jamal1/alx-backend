@@ -20,7 +20,7 @@ class FIFOCache(BaseCaching):
         """
         data = self.cache_data
         if key and item:
-            if not key in data and len(data) >= self.MAX_ITEMS:
+            if key not in data and len(data) >= self.MAX_ITEMS:
                 self.cache_data.pop(self.keys[0])
                 print("DISCARD: {}".format(self.keys[0]))
                 self.keys.pop(0)
