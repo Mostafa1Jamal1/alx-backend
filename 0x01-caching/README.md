@@ -10,3 +10,5 @@
 `*3-lru_cache.py*` -> a class LRUCache that inherits from BaseCaching and is a caching system
 
 `*4-mru_cache.py*` -> a class MRUCache that inherits from BaseCaching and is a caching system
+
+`*100-lfu_cache.py*` -> a class LFUCache that inherits from BaseCaching and is a caching system
