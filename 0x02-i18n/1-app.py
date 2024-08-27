@@ -9,7 +9,7 @@ from flask import (
 from flask_babel import Babel
 
 
-class Config():
+class Config:
     """config class for babel
     """
     LANGUAGES = ["en", "fr"]
@@ -30,4 +30,4 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
