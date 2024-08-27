@@ -22,6 +22,7 @@ app = Flask(__name__)
 babel = Babel(app)
 app.config.from_object(Config)
 
+
 @babel.localeselector
 def get_locale():
     """ to determine the best match with our supported languages.
@@ -33,7 +34,7 @@ def get_locale():
 def hello_world():
     """home route for a basic page
     """
-    return render_template('1-index.html')
+    return render_template('2-index.html')
 
 
 if __name__ == '__main__':
