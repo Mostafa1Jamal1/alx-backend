@@ -14,7 +14,7 @@ class Config:
     """
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
-    BABEL_DEFAULT_LOCALE = "UTC"
+    BABEL_DEFAULT_TIMEZONE = "UTC"
 
 
 app = Flask(__name__)
@@ -27,7 +27,3 @@ def hello_world():
     """home route for a basic page
     """
     return render_template('1-index.html')
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
