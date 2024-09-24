@@ -16,7 +16,7 @@ const setAsync = promisify(client.set).bind(client);
 
 const setNewSchool = async function (schoolName, value) {
   const rep = await setAsync(schoolName, value);
-  redis.print(`Reply: ${rep}`);
+  console.log(`Reply: ${rep}`);
 };
 
 const displaySchoolValue = async function (schoolName) {
